@@ -8,8 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
 
     <!--========== CSS ==========-->
-    <link rel="stylesheet" href="/assets-front-end/css/styles.css" />
-    <link rel="stylesheet" type="text/css" href="/filter/style.css" />
+    <link rel="stylesheet" href="{{ asset('assets-front-end/css/styles.css') }}"/>
+    <link rel="stylesheet" type="text/css" href="{{ asset('filter/style.css') }}" />
     <link rel="icon" href="/assets/img/delicacy.png" type="image/png">
     <title>Responsive website food</title>
   </head>
@@ -33,7 +33,7 @@
             <li class="nav__item"><a href="#" class="nav__link">Hi, {{ session()->get('username') }}</a></li>
             @else
             <li class="nav__item">
-              <a href="/auth/login" class="nav__link" > Login</a>
+              <a href="{{ route('login') }}" class="nav__link" > Login</a>
             </li>
             @endif
 
@@ -73,7 +73,7 @@
         <div class="menu__container bd-grid items">
           @foreach($menu as $result)
           <div class="menu__content data-category">
-            <img src="/upload/{{$result->menu_image}}" alt="" class="menu__img" />
+            <img src="{{ asset('upload/'.$result->menu_image) }}" alt="" class="menu__img" />
             <h3 class="menu__name">{{$result->menu_name}}</h3>
             <strong style="display: none;">{{$category_name[$i]}}</strong>
             <span class="menu__detail" style="display:block">Stok : {{$result->stok}}</span>
@@ -151,8 +151,8 @@
        ScrollReveal().reveal ('.menu__container', { delay: 500, origin: 'left', interval: 200, reset: true });
     </script> --}}
     <!--========== MAIN JS ==========-->
-    <script src="/assets-front-end/js/main.js"></script>
-    <script type="text/javascript" src="/filter/script.js"></script>
+    <script src="{{ asset('assets-front-end/js/main.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('filter/script.js') }}"></script>
   </body>
 </html>
 

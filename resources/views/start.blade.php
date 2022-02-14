@@ -8,9 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
 
     <!--========== CSS ==========-->
-    <link rel="stylesheet" href="/assets-front-end/css/styles.css" />
-    <link rel="icon" href="/assets/img/delicacy.png" type="image/png">
-    
+    <link href="{{ asset('/assets-front-end/css/styles.css') }}" rel="stylesheet">
+    <link rel="icon" href="{{ asset('/assets/img/delicacy.png') }}" type="image/png">
+
     <title>Responsive website food</title>
   </head>
   <body>
@@ -33,7 +33,7 @@
             <li class="nav__item"><a href="#" class="nav__link">Hi, {{ session()->get('username') }}</a></li>
             @else
             <li class="nav__item">
-              <a href="/auth/login" class="nav__link" > Login</a>
+              <a href="{{ route('login') }}" class="nav__link" > Login</a>
             </li>
             @endif
             <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
@@ -59,7 +59,7 @@
             <a href="{{route('menu')}}" class="button">Shop Now</a>
           </div>
 
-          <img src="/assets-front-end/img/home.png" alt="" class="home__img" />
+          <img src="{{URL::asset('assets-front-end/img/home.png')}}" alt="" class="home__img" />
         </div>
       </section>
 
@@ -73,10 +73,10 @@
               Delicacy Food
             </h2>
             <p class="about__description">We cook the best food in the entire city, with excellent customer service, the best meals and at the best price, visit us.</p>
-            <a href="backend/login.php" class="button">Explore history</a>
+            <a href="{{route('login')}}" class="button">Explore history</a>
           </div>
 
-          <img src="/assets-front-end/img/about.jpg" alt="" class="about__img" />
+          <img src="{{URL::asset('assets-front-end/img/about.jpg')}}" alt="" class="about__img" />
         </div>
       </section>
 
@@ -434,27 +434,27 @@
 
         <div class="menu__container bd-grid">
           <div class="menu__content">
-            <img src="/assets-front-end/img/plate1.png" alt="" class="menu__img" />
+            <img src="{{URL::asset('assets-front-end/img/plate1.png')}}" alt="" class="menu__img" />
             <h3 class="menu__name">Barbecue salad</h3>
             <span class="menu__detail">Delicious dish</span>
             <span class="menu__preci">$22.00</span>
-            <a href="backend/login.php" class="button menu__button"><i class="bx bx-cart-alt"></i></a>
+            <a href="{{ route('login') }}" class="button menu__button"><i class="bx bx-cart-alt"></i></a>
           </div>
 
           <div class="menu__content">
-            <img src="/assets-front-end/img/plate2.png" alt="" class="menu__img" />
+            <img src="{{URL::asset('assets-front-end/img/plate2.png') }}" alt="" class="menu__img" />
             <h3 class="menu__name">Salad with fish</h3>
             <span class="menu__detail">Delicious dish</span>
             <span class="menu__preci">$12.00</span>
-            <a href="backend/login.php" class="button menu__button"><i class="bx bx-cart-alt"></i></a>
+            <a href="{{ route('login') }}" class="button menu__button"><i class="bx bx-cart-alt"></i></a>
           </div>
 
           <div class="menu__content">
-            <img src="/assets-front-end/img/plate3.png" alt="" class="menu__img" />
+            <img src="{{URL::asset('assets-front-end/img/plate3.png') }}" alt="" class="menu__img" />
             <h3 class="menu__name">Spinach salad</h3>
             <span class="menu__detail">Delicious dish</span>
             <span class="menu__preci">$9.50</span>
-            <a href="backend/login.php" class="button menu__button"><i class="bx bx-cart-alt"></i></a>
+            <a href="{{ route('login') }}" class="button menu__button"><i class="bx bx-cart-alt"></i></a>
           </div>
         </div>
       </section>
@@ -467,12 +467,12 @@
             <h2 class="section-title app__initial">App is aviable</h2>
             <p class="app__description">Find our application and download it, you can make reservations, food orders, see your deliveries on the way and much more.</p>
             <div class="app__stores">
-              <a href="#"><img src="/assets-front-end/img/app1.png" alt="" class="app__store" /></a>
-              <a href="#"><img src="/assets-front-end/img/app2.png" alt="" class="app__store" /></a>
+              <a href="#"><img src="{{URL::asset('assets-front-end/img/app1.png') }}" alt="" class="app__store" /></a>
+              <a href="#"><img src="{{URL::asset('assets-front-end/img/app2.png') }}" alt="" class="app__store" /></a>
             </div>
           </div>
 
-          <img src="/assets-front-end/img/movil-app.png" alt="" class="app__img" />
+          <img src="{{URL::asset('assets-front-end/img/movil-app.png') }}" alt="" class="app__img" />
         </div>
       </section>
 
@@ -486,7 +486,7 @@
           </div>
 
           <div class="contact__button">
-            <a href="backend/login.php" class="button">Contact us now</a>
+            <a href="{{ route('login') }}" class="button">Contact us now</a>
           </div>
         </div>
       </section>
@@ -543,6 +543,6 @@
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <!--========== MAIN JS ==========-->
-    <script src="/assets-front-end/js/main.js"></script>
+    <script type="text/javascript" src="{{ asset('assets-front-end/js/main.js') }}"></script>
   </body>
 </html>

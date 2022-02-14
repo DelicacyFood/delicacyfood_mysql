@@ -86,10 +86,10 @@
                     <div class="section-title">Payment Method</div>
                     <p class="section-lead">The payment method that we provide is to make it easier for you to pay invoices.</p>
                     <div class="images">
-                      <img src="/assets/img/visa.png" alt="visa">
-                      <img src="/assets/img/jcb.png" alt="jcb">
-                      <img src="/assets/img/mastercard.png" alt="mastercard">
-                      <img src="/assets/img/paypal.png" alt="paypal">
+                      <img src="{{ URL::asset('assets/img/visa.png') }}" alt="visa">
+                      <img src="{{ URL::asset('assets/img/jcb.png') }}" alt="jcb">
+                      <img src="{{ URL::asset('assets/img/mastercard.png') }}" alt="mastercard">
+                      <img src="{{ URL::asset('assets/img/paypal.png') }}" alt="paypal">
                     </div>
                   </div>
                   <div class="col-lg-4 text-right">
