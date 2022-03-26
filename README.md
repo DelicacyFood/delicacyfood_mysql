@@ -84,10 +84,10 @@ Aims to provide information systems for some kinda features and user's roles of 
 - Fruit Salad
 
 ## Flow Application
-<img src="https://github.com/DelicacyFood/delicacyfood_mysql/tree/master/public/image-readme/data-flow.png" />
+<img src="https://github.com/DelicacyFood/delicacyfood_mysql/blob/master/public/image-readme/data-flow.png" />
 
 ## Relational Data Model 
-<img src="https://github.com/DelicacyFood/delicacyfood_mysql/tree/master/public/image-readme/relational-data-model.png" />
+<img src="https://github.com/DelicacyFood/delicacyfood_mysql/blob/master/public/image-readme/relational-data-model.png" />
 
 ## Demo
 
@@ -101,31 +101,31 @@ https://youtu.be/yUGmpEjEkdk
 
 
 ## Cart Page
-<img src="https://github.com/DelicacyFood/delicacyfood_mysql/tree/master/public/image-readme/cart-page.png" />
+<img src="https://github.com/DelicacyFood/delicacyfood_mysql/blob/master/public/image-readme/cart-page.png" />
 
 ## Dashboard Page
-<img src="https://github.com/DelicacyFood/delicacyfood_mysql/tree/master/public/image-readme/dashboard-page.png" />
+<img src="https://github.com/DelicacyFood/delicacyfood_mysql/blob/master/public/image-readme/dashboard-page.png" />
 
 ## Driver Page
-<img src="https://github.com/DelicacyFood/delicacyfood_mysql/tree/master/public/image-readme/driver-page.png" />
+<img src="https://github.com/DelicacyFood/delicacyfood_mysql/blob/master/public/image-readme/driver-page.png" />
 
 ## Home Page
-<img src="https://github.com/DelicacyFood/delicacyfood_mysql/tree/master/public/image-readme/home-page.png" />
+<img src="https://github.com/DelicacyFood/delicacyfood_mysql/blob/master/public/image-readme/home-page.png" />
 
 ## Invoice Page
-<img src="https://github.com/DelicacyFood/delicacyfood_mysql/tree/master/public/image-readme/invoice-page.png" />
+<img src="https://github.com/DelicacyFood/delicacyfood_mysql/blob/master/public/image-readme/invoice-page.png" />
 
 ## Restaurant Sales Record Page
-<img src="https://github.com/DelicacyFood/delicacyfood_mysql/tree/master/public/image-readme/manager-1.png" />
+<img src="https://github.com/DelicacyFood/delicacyfood_mysql/blob/master/public/image-readme/manager-1.png" />
 
 ## Analyze Order Records Page
-<img src="https://github.com/DelicacyFood/delicacyfood_mysql/tree/master/public/image-readme/manager-2.png" />
+<img src="https://github.com/DelicacyFood/delicacyfood_mysql/blob/master/public/image-readme/manager-2.png" />
 
 ## Menu Page
-<img src="https://github.com/DelicacyFood/delicacyfood_mysql/tree/master/public/image-readme/menu-page.png" />
+<img src="https://github.com/DelicacyFood/delicacyfood_mysql/blob/master/public/image-readme/menu-page.png" />
 
 ## User Profile Page
-<img src="https://github.com/DelicacyFood/delicacyfood_mysql/tree/master/public/image-readme/profile-page.png" />
+<img src="https://github.com/DelicacyFood/delicacyfood_mysql/blob/master/public/image-readme/profile-page.png" />
 
 ## Top up Page
-<img src="https://github.com/DelicacyFood/delicacyfood_mysql/tree/master/public/image-readme/top-up-page.png" />
+<img src="https://github.com/DelicacyFood/delicacyfood_mysql/blob/master/public/image-readme/top-up-page.png" />
