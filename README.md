@@ -101,32 +101,32 @@ https://youtu.be/yUGmpEjEkdk
 
 ## Screenshots
 
-### Cart Page
-<img src="https://github.com/DelicacyFood/delicacyfood_mysql/blob/master/public/image-readme/cart-page.png" />
+### Home Page
+<img src="https://github.com/DelicacyFood/delicacyfood_mysql/blob/master/public/image-readme/home-page.png" />
 
 ### Dashboard Page
 <img src="https://github.com/DelicacyFood/delicacyfood_mysql/blob/master/public/image-readme/dashboard-page.png" />
 
-### Driver Page
-<img src="https://github.com/DelicacyFood/delicacyfood_mysql/blob/master/public/image-readme/driver-page.png" />
+### Menu Page
+<img src="https://github.com/DelicacyFood/delicacyfood_mysql/blob/master/public/image-readme/menu-page.png" />
 
-### Home Page
-<img src="https://github.com/DelicacyFood/delicacyfood_mysql/blob/master/public/image-readme/home-page.png" />
+### Cart Page
+<img src="https://github.com/DelicacyFood/delicacyfood_mysql/blob/master/public/image-readme/cart-page.png" />
 
 ### Invoice Page
 <img src="https://github.com/DelicacyFood/delicacyfood_mysql/blob/master/public/image-readme/invoice-page.png" />
 
+### Driver Page
+<img src="https://github.com/DelicacyFood/delicacyfood_mysql/blob/master/public/image-readme/driver-page.png" />
+
 ### Restaurant Sales Record Page
 <img src="https://github.com/DelicacyFood/delicacyfood_mysql/blob/master/public/image-readme/manager-1.png" />
 
-### Analyze Order Records Page
-<img src="https://github.com/DelicacyFood/delicacyfood_mysql/blob/master/public/image-readme/manager-2.png" />
-
-### Menu Page
-<img src="https://github.com/DelicacyFood/delicacyfood_mysql/blob/master/public/image-readme/menu-page.png" />
+### Top up Page
+<img src="https://github.com/DelicacyFood/delicacyfood_mysql/blob/master/public/image-readme/top-up-page.png" />
 
 ### User Profile Page
 <img src="https://github.com/DelicacyFood/delicacyfood_mysql/blob/master/public/image-readme/profile-page.png" />
 
-### Top up Page
-<img src="https://github.com/DelicacyFood/delicacyfood_mysql/blob/master/public/image-readme/top-up-page.png" />
+### Analyze Order Records Page
+<img src="https://github.com/DelicacyFood/delicacyfood_mysql/blob/master/public/image-readme/manager-2.png" />
