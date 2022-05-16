@@ -92,7 +92,7 @@ Aims to provide information systems for some kinda features and user's roles of 
 ## Demo
 
 Here's the quick demo of the app :
-https://youtu.be/yUGmpEjEkdk
+https://zharmedia.my.id/delicacyfood/
 
 
 ## License
